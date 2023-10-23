@@ -1,10 +1,12 @@
+import { NavLink } from "react-router-dom";
+
 const Nav = () => {
     
     return (
         <ul>
-            <li><a href='#'>Cats</a></li>
-            <li><a href='#'>Dogs</a></li>
-            <li><a href='#'>Computers</a></li>
+            <li><NavLink to='#'>Silly</NavLink></li>
+            <li><NavLink to='#'>Funny</NavLink></li>
+            <li><NavLink to='#'>Smile</NavLink></li>
         </ul>
         )
 };

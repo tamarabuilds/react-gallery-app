@@ -10,7 +10,7 @@ const PhotoContainer = ({ data }) => {
       <h2>Results</h2>
       <ul>
         {photos}
-        <NotFound />
+        {/* <NotFound /> */}
       </ul>
     </div>
   );
