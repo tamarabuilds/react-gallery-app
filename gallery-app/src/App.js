@@ -1,28 +1,33 @@
-import { useState } from 'react';
-import SearchForm from './Components/SearchForm';
-import Nav from './Components/Nav';
+import { useState } from "react";
+import { photoData } from "./data/photos";
+import { apiKey } from "./config";
+import { Route, Routes, NavLink } from "react-router-dom";
 
-// import logo from './logo.svg';
-// import './App.css';
+// App components
+import SearchForm from "./Components/SearchForm";
+import Nav from "./Components/Nav";
+import PhotoContainer from "./Components/PhotoContainer";
 
 function App() {
-  const [query, setQuery] = useState('search above and i will change');
-  
+  const [query, setQuery] = useState("search above and i will change");
 
-  const handleQueryChange = searchText => {
-    setQuery(searchText)
+  const handleQueryChange = (searchText) => {
+    setQuery(searchText);
   };
 
   return (
     <div className="container">
-      <SearchForm 
-        changeQuery={handleQueryChange}
-      />
-      {/* For testing only */}
-      <h1>{query}</h1>
-      <nav className='main-nav'>
+      <Routes>
+        <Route path="search" element={} />
+        <SearchForm changeQuery={handleQueryChange} />
+        {/* For testing only */}
+        <h1>{query}</h1>
+        <nav className="main-nav">
           <Nav />
-      </nav>
+        </nav>
+
+        <PhotoContainer data={photoData} />
+      </Routes>
     </div>
   );
 }
