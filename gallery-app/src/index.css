@@ -3,7 +3,7 @@ body {
   /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Lexend', sans-serif;
   color: #3f4850;
-  /* background-image: url('./Components/images/background.jpg'); */
+  background-image: url('./Components/images/background.jpg');
 }
 
 h2 {
@@ -29,8 +29,8 @@ a {
 
 .search-form button {
   outline: none;
-  background-color: #438bbd;
-  /* background-color: black; */
+  /* background-color: #438bbd; */
+  background-color: black;
   border: none;
   padding: 0px 15px;
   border-radius: 0 0.35em 0.35em 0;
@@ -55,8 +55,8 @@ input {
 
 .main-nav a {
   display: block;
-  background: #438bbd;
-  /* background: black; */
+  /* background: #438bbd; */
+  background: black;
   border-radius: 3px;
   padding: 10px;
   color: #fff;
@@ -65,17 +65,17 @@ input {
 .main-nav .active,
 .main-nav a:hover,
 .search-form button:hover {
-  background-color: #275270;
-  /* background-color: hotpink; */
-  /* color: black; */
-  /* border: 1px solid black; */
+  /* background-color: #275270; */
+  background-color: hotpink;
+  color: black;
+  border: 1px solid black;
 }
 
-/* .photo-container {
+.photo-container {
   background-color: white;
   border-radius: 10px;
-  padding: 1px;
-} */
+  padding: .5px;
+}
 
 .photo-container ul {
   display: flex;
