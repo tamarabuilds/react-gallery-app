@@ -1,8 +1,8 @@
-const Photo = ({imgSrc}) => {
+const Photo = ({serverId, id, secret, title}) => {
 
     return (
         <li>
-          <img src={imgSrc} alt="searched result img" />
+          <img src={`https://live.staticflickr.com/${serverId}/${id}_${secret}.jpg`} alt={`${title}`} />
         </li>
     );
 };

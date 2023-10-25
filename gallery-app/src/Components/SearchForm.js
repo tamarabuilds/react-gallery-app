@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 /**
  * SearchForm component renders and maintains the state of search input
@@ -8,13 +9,17 @@ import { useRef } from "react";
 const SearchForm = ({ changeQuery }) => {
   // put a ref to the search entry
   const searchText = useRef(null);
+  // progrmatically nagivate the url
+  let navigate = useNavigate();
 
   // event handler for submitting the search form
   const handleSubmit = (e) => {
     e.preventDefault();
-    // setting the query string to the user-defined search text
-    console.log(searchText.current.value);
+    // setting the query string to the search text entered by the user
     changeQuery(searchText.current.value);
+    //updating URL to search term
+    let path = searchText.current.value;
+    navigate(path);
     // resetting the search field after submission
     e.currentTarget.reset();
   };
