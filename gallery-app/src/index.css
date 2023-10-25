@@ -1,21 +1,9 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
 body {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Lexend', sans-serif;
   color: #3f4850;
+  background-image: url('./Components/images/background.jpg');
 }
 
 h2 {
@@ -41,7 +29,8 @@ a {
 
 .search-form button {
   outline: none;
-  background-color: #438bbd;
+  /* background-color: #438bbd; */
+  background-color: black;
   border: none;
   padding: 0px 15px;
   border-radius: 0 0.35em 0.35em 0;
@@ -66,16 +55,26 @@ input {
 
 .main-nav a {
   display: block;
-  background: #438bbd;
+  /* background: #438bbd; */
+  background: black;
   border-radius: 3px;
-  padding: 5px;
+  padding: 10px;
   color: #fff;
 }
 
 .main-nav .active,
 .main-nav a:hover,
 .search-form button:hover {
-  background-color: #275270;
+  /* background-color: #275270; */
+  background-color: hotpink;
+  color: black;
+  border: 1px solid black;
+}
+
+.photo-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1px;
 }
 
 .photo-container ul {
@@ -91,12 +90,14 @@ input {
   height: 165px;
   overflow: hidden;
   margin-bottom: 15px;
+  /* added this: */
+  border-radius: 10px;
 }
 
 .photo-container ul img {
   width: 100%;
   transform: scale(1.25);
-  transition: transform 1.25s;
+  transition: transform 1.25s; 
 }
 
 .photo-container li:hover img {
@@ -106,6 +107,19 @@ input {
 .photo-container .not-found {
   width: 100%;
 }
+
+/* NoPage -------- */
+
+.cite {
+  font-size: .75em;
+}
+
+.img-no-page {
+  margin-top: 5%;
+ width: 30%;
+ border-radius: 10px;
+}
+
 
 @media only screen and (max-width: 767px)  {
   body {
