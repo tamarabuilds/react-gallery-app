@@ -11,8 +11,7 @@ const NoPage = () => {
         <div className="photo-container">
             <img src={iceCream} className="img-no-page" alt="oh no, spilled ice cream"/>
             <p className="cite">Photo by Sarah Kilian, @rojekilian on Unsplash </p>
-            <h2>Oops! No match for {location.pathname}</h2>
-            <h3>Please try another search</h3>
+            <h2>Oops! 404 Error! No match for {location.pathname}</h2>
         </div>
         );
 };

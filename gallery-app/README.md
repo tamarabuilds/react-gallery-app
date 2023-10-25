@@ -46,7 +46,6 @@ Picked up a bunch of skills including:
 * Structure, style and CSS were updated:
   * Updated font to Lexend to improve readability. Learn more: https://www.lexend.com/
   * Favicon updated to a little star.
-  * Background, photo container, button static and active colors were all updated. 
   * All images are rounded off for friendlier layout.
 
 
