@@ -1,14 +1,17 @@
 import { useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 // App components
 import Photo from "./photos/Photo";
 import NotFound from "./NotFound";
-import { useEffect } from "react";
 
 const PhotoContainer = ({ data, changeQuery }) => {
   let { urlTerm } = useParams();
   let photos = "";
-  changeQuery(urlTerm)
+  useEffect(()=> {
+    changeQuery(urlTerm)
+
+  },[]);
   
   // Checking if provided data is empty or not
   if (data.length > 0) {
