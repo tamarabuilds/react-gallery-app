@@ -1,7 +1,7 @@
 # react-gallery-app
 Learn more about the developer on <a href="https://www.linkedin.com/in/tamarabuilds/" target="_blank">LinkedIn</a>
 
-Unit 07 project for the Full Stack JavaScript Techdegree. This project utilizes React to create n image gallery app. With the help of this powerful 'MVC' (model, view, controller) library, the app was built in the style of modern single-page applications to keep it fast and modular.
+Unit 07 project for the Full Stack JavaScript Techdegree. This project utilizes React to create an image gallery app with the flickr api. Search for images and see them displayed!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
