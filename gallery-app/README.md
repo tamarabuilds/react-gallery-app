@@ -3,6 +3,9 @@ Learn more about the developer on <a href="https://www.linkedin.com/in/tamarabui
 
 Unit 07 project for the Full Stack JavaScript Techdegree. This project utilizes React to create an image gallery app with the flickr api. Search for images and see them displayed!
 
+![Screenshot 2023-10-25 at 11 56 54 AM](https://github.com/tamarabuilds/react-gallery-app/assets/98510821/bc3fdb2a-6740-439f-8826-52cde46e64f9)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## How It's Made
