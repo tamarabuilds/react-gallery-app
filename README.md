@@ -5,6 +5,7 @@ Unit 07 project for the Full Stack JavaScript Techdegree. This project utilizes 
 
 ![Screenshot 2023-10-25 at 11 56 54 AM](https://github.com/tamarabuilds/react-gallery-app/assets/98510821/bc3fdb2a-6740-439f-8826-52cde46e64f9)
 
+Live site: https://tamarabuilds.github.io/react-gallery-app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
